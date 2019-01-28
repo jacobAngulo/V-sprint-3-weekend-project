@@ -166,6 +166,27 @@ p {
   width: 50%;
   background: darkgoldenrod;
 }
+.container .main-content .post-example {
+  background: lightsalmon;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.container .main-content .post-example .post-info {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0 0 1rem;
+}
+.container .main-content .post-example .post-info h1 {
+  margin: 0 0 0 1rem;
+  font-size: 1.5rem;
+}
+.container .main-content .post-example .post-content {
+  padding: 1rem 0 1rem 1rem;
+}
+.container .main-content .post-example .post-content p {
+  font-size: 1.25rem;
+  margin: 0 0 1rem 0;
+}
 .container .ads {
   width: 20%;
   background: darkseagreen;
