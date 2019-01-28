@@ -4,20 +4,32 @@
     display: flex;
     justify-content: space-between;
     margin-top: 25rem;
+    padding: 0 5% 0 5%;
 
     .recommended {
         width: 20%;
+        height: 50rem;
         background: purple;
     }
 
     .main-content {
         width: 50%;
-        background: darkgoldenrod;
+        // background: darkgoldenrod;
 
         .post-example {
             background: lightsalmon;
             border-radius: 0.5rem;
             margin-bottom: 1rem;
+
+            .triangle {
+                width: 0; 
+                height: 0; 
+                position: relative;
+                border-left: 1rem solid transparent;
+                border-right: 1rem solid transparent;                
+                border-top: 1rem solid lightsalmon;
+                right: 1rem;
+            }
 
             .post-info {
                 display: flex;
@@ -31,11 +43,11 @@
             }
 
             .post-content {
-                padding: 1rem 0 1rem 1rem;
+                padding: 2rem 3rem 1rem 3rem;
 
                 p{
                     font-size: 1.25rem;
-                    margin: 0 0 1rem 0;
+                    margin: 0 0 2rem 0;
                 }
             }
         }
@@ -43,6 +55,7 @@
 
     .ads {
         width: 20%;
+        height: 50rem;
         background: darkseagreen;
     }
 }

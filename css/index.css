@@ -157,19 +157,29 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 25rem;
+  padding: 0 5% 0 5%;
 }
 .container .recommended {
   width: 20%;
+  height: 50rem;
   background: purple;
 }
 .container .main-content {
   width: 50%;
-  background: darkgoldenrod;
 }
 .container .main-content .post-example {
   background: lightsalmon;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
+}
+.container .main-content .post-example .triangle {
+  width: 0;
+  height: 0;
+  position: relative;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-top: 1rem solid lightsalmon;
+  right: 1rem;
 }
 .container .main-content .post-example .post-info {
   display: flex;
@@ -181,14 +191,15 @@ p {
   font-size: 1.5rem;
 }
 .container .main-content .post-example .post-content {
-  padding: 1rem 0 1rem 1rem;
+  padding: 2rem 3rem 1rem 3rem;
 }
 .container .main-content .post-example .post-content p {
   font-size: 1.25rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
 }
 .container .ads {
   width: 20%;
+  height: 50rem;
   background: darkseagreen;
 }
 .header {
