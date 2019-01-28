@@ -10,9 +10,9 @@ class User {
 class UserPost extends User {
     constructor(input) {
         super(input);
+    }
 
-        post(input) {
-            return `${input}`;
-        }
+    post(input) {
+        return `${input}`;
     }
 }
