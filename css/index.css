@@ -136,13 +136,6 @@ html,
 body {
   font-family: 'Ubuntu', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Russo One', sans-serif;
-}
 h2 {
   font-size: 3.2rem;
 }
@@ -152,6 +145,30 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  background: lavender;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25rem;
+}
+.container .recommended {
+  width: 20%;
+  background: purple;
+}
+.container .main-content {
+  width: 50%;
+  background: darkgoldenrod;
+}
+.container .ads {
+  width: 20%;
+  background: darkseagreen;
 }
 .header {
   display: flex;
@@ -181,13 +198,22 @@ p {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0 auto -15rem;
+  margin: -5rem auto -20rem;
+  border: 15px solid pink;
+  background: pink;
+  border-radius: 1rem;
+}
+.header span img {
   height: 25rem;
   width: 25rem;
   background: orange;
-  border: 15px solid pink;
   border-radius: 1rem;
 }
 .header span h1 {
-  width: 100%;
+  padding-top: 20px;
+  margin-top: 10px;
+  background: pink;
+  text-align: center;
+  color: black;
+  font-size: 3.5rem;
 }
